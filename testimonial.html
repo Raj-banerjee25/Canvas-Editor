@@ -132,19 +132,18 @@
         padding: 40px 20px;
         background-color: #1a1a1a;
 }
-    .stat-box {
-    text-align: center;
-    color: #fff;
+        .stat-box {
+        text-align: center;
+        color: #fff;
 }
-    .stat-box h3 {
-    font-size: 24px;
-    color: #fca311;
+        .stat-box h3 {
+        font-size: 24px;
+        color: #fca311;
 }
-    .stat-box p {
-    font-size: 16px;
-    color: #ccc;
+        .stat-box p {
+        font-size: 16px;
+        color: #ccc;
 }
-
 
         /* CTA Section */
         .cta-section {
@@ -293,7 +292,6 @@
     </section>
 
     <!-- Footer -->
-
     <footer class="text-center">
         <div class="container">
             <div class="row">
@@ -328,28 +326,7 @@
     </footer>
     <script>
         document.getElementById("year").textContent = new Date().getFullYear();
-        /* document.addEventListener("DOMContentLoaded", () => {
-            const counters = document.querySelectorAll(".stat-box h3");
-            const speed = 100; // Adjust speed as needed
-        
-            counters.forEach(counter => {
-                const updateCount = () => {
-                    const target = +counter.getAttribute("data-target");
-                    const count = +counter.innerText;
-                    const increment = target / speed;
-        
-                    if (count < target) {
-                        counter.innerText = Math.ceil(count + increment);
-                        setTimeout(updateCount, 10); // Adjust for smoothness
-                    } else {
-                        counter.innerText = target;
-                    }
-                };
-        
-                updateCount();
-            });
-        }); */
-        document.addEventListener("DOMContentLoaded", () => {
+            document.addEventListener("DOMContentLoaded", () => {
             const counters = document.querySelectorAll(".stat-box h3");
 
             counters.forEach(counter => {
